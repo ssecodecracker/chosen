@@ -139,6 +139,7 @@ $chosen-sprite-retina: url('chosen-sprite@2x.png') !default;
   }
   &.chosen-container-single-nosearch .chosen-search {
     position: absolute;
+opacity: 0;
     clip: rect(0,0,0,0);
     clip-path: inset(100% 100%);
   }
